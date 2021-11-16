@@ -25,7 +25,7 @@ nav {
 
 /* Start: Section Main Screen */
 .main-screen {
-    background-image: url(../images/main-bg.jpg), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
+    background-image: url(../images/home/main-bg.jpg), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -65,7 +65,7 @@ nav a {
 
 /* Section Game Choice */
 .game-choice {
-    background-image: url(../images/the-games-bg.jpg), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
+    background-image: url(../images/home/the-games-bg.jpg), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -91,14 +91,14 @@ nav a {
 
 /* Section Game Features */
 .game-features {
-    background-image: url(../images/features.jpg), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
+    background-image: url(../images/home/features.jpg), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
     letter-spacing: 0.1rem;
     word-spacing: 0.1rem;
 }
-.yellow {
+.yellow-t {
    color: #ffb548; 
 }
 .ls-0 {
@@ -136,7 +136,7 @@ ul.sub-features .my-4::after {
 
 /* Section System Requirement */
 .requirement {
-    background-image: url(../images/requirements.png), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
+    background-image: url(../images/home/requirements.png), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -150,7 +150,7 @@ ul.sub-features .my-4::after {
 
 /* Section Top Scores */
 .top-scores {
-    background-image: url(../images/top-score-bg.png), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
+    background-image: url(../images/home/top-score-bg.png), linear-gradient(to right, #434343 0%, rgb(0, 0, 0) 100%) ;
     background-size: cover;
     background-position: center;
     min-height: 100vh;
@@ -164,7 +164,7 @@ ul.sub-features .my-4::after {
 .card {
     width: 24em;
 }
-.bg-yellow {
+.bg-yellow-t {
     width: 3em;
     height: 3em;
     background-color: #ffb548;
@@ -204,4 +204,18 @@ footer * .footer-2 ul li::before {
 }
 footer * .footer-2 ul li:first-child::before {
     content: "";
+}
+
+/* Game */
+.brown-t {
+    color: #724C21;
+}
+.bg-brown-t {
+    background-color:#9C835F;
+}
+.ff-open-sans {
+    font-family: 'Open Sans', serif;
+}
+.fw-900 {
+    font-weight: 900;
 }
