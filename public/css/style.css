@@ -219,3 +219,52 @@ footer * .footer-2 ul li:first-child::before {
 .fw-900 {
     font-weight: 900;
 }
+.bg-gray {
+    background-color: rgba(196, 196, 196);
+}
+.hover\:bg-gray:hover {
+    --tw-bg-opacity: 1;
+    background-color: rgba(196, 196, 196);
+}
+.bg-dark-green {
+    background-color: rgba(3, 91, 12);
+  }
+.rounded-4t {
+    border-radius: 1rem;
+}
+main {
+    letter-spacing: 0.1rem;
+}
+.rotate-15 {
+    transform: rotate(-15deg);
+}
+.cursor-pointer {
+    cursor: pointer;
+}
+@media screen and (max-width: 992px) {
+    .text-uppercase.fw-900 {
+        font-size: small !important;
+    }
+    #vs, #alertResult {
+        font-size: 2em;
+    }
+    #reset-game {
+        width: 15%;
+    }
+}
+@media screen and (max-width: 768px) {
+    .result-reset {
+        flex-direction: row !important;
+        justify-content: flex-end !important;  
+        margin-top: 2rem;
+        margin-bottom: 4rem;   
+    }
+    #vs, #alertResult {
+        font-size: 2em;
+
+    }
+    #reset-game {
+        width: 10% !important;
+        margin: 0 4.5em !important;
+    }
+}
